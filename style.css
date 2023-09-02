@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #DDD6CF;
+}
+
+p{
+    color: black;
+    font-size: 17px;
+}
+
+section{
+    height: 80vh;
+    padding: 8vh 10vh 3vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+img{
+    width: 45vw;
+
+}
+
+
+.detalles-caja-titulo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detalles-caja-titulo h2{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.detalles-caja-titulo .flecha{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+.detalles-caja-caracteristicas{
+    
+    
+    display: flex;
+}
+
+.caja-especificaciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40vw;
+    padding: 5vw 0 5vw 5vw;
+}
+
+
+.caja-especificaciones .caja{
+    display: flex;
+    gap: 5rem;
+
+    padding: 2rem;
+}
+
+.caja-especificaciones .tittle{
+    width: 6rem;
+}
+
+.caja-especificaciones .border{
+    
+    border-bottom: 1px solid black;
+}
+
+.caja-especificaciones .strong{
+    
+    font-weight: bold;
+}
